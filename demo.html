@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <!-- Shortcut for comments: Ctrl + / -->
+     <head>
+        <style>
+            h2{
+                text-shadow: 1px 1px 4px teal;
+                text-align: center;
+                font-size: 20px;
+            }
+            .imgcls{
+                border: 5px solid red;
+                border-radius: 20px;
+                text-align: center;
+                display: block;
+                margin: 20px auto;
+                max-width: 50%;
+            }
+            .imgcls:hover{
+                border: 5px solid grey;
+                box-shadow: 10px 10px 10px grey;
+            }
+            @media only screen and (max-width: 600px){
+                .imgcls{
+                    max-width: 100%;
+                }
+            }
+            .bg_img{
+                /* width: 70%; */
+                background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX9R9qeanfxjMODGRgK_Lx9pgzgwgZ7zEmwQ&s');
+                background-size: cover;
+                background-position: center;
+                text-align: center;
+                padding: 200px;
+            }
+            .bg_img h2{
+                color: teal;
+                text-shadow: 1px 1px 4px rgb(47, 159, 159);
+            }
+            .parallex_img{
+                height: 50vh;
+                background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX9R9qeanfxjMODGRgK_Lx9pgzgwgZ7zEmwQ&s');
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+            }
+            .gradient_bg{
+                background-image: linear-gradient(to bottom right, blue, lightblue);
+                padding: 100px;
+                font-size: 20px;
+
+            }
+        </style>
+     </head>
+    <body>
+        <div class="parallex_img">
+            <div style=" width: 50%; position: relative; top: 50%; padding: 50px;"></div>
+                <h2>Parallex Image</h2>
+                <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, nostrum dolorum provident perferendis magnam laborum. Velit repellat necessitatibus pariatur quibusdam omnis. Facere, delectus harum illum est sunt possimus omnis error.</p> -->
+            </div>
+        </div>
+        <h1>Html css</h1>
+        <h2>Html css</h2>
+        <h3>Html css</h3>
+        <div class="gradient_bg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id earum, non ducimus aliquam expedita nostrum. Quos quo autem veniam porro, earum officiis hic perspiciatis voluptatibus nihil necessitatibus vel sunt?</p>
+        </div>
+        <a href="https://in.bookmyshow.com/explore/home/hyderabad" target="_blank">
+        <img class="imgcls" src="C:\Users\reshm\Downloads\wallpaper1.jpg" alt="Wallpaper">
+        </a>
+        <div class="bg_img">
+                <h2>Image background</h2>
+        </div>
+    </body>
+</html>
